@@ -1,8 +1,9 @@
 "
 " Theme options
-set t_Co=256
-colorscheme Monokai
-set background=dark    " Setting dark mode
+"set t_Co=256
+"colorscheme Monokai
+"set background=dark    " Setting dark mode
+
 """ Hilight search and set numbers
 set hlsearch
 highlight Search guibg=#af005f ctermbg=125

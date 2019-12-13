@@ -26,7 +26,7 @@ python3 python3-devel tcl-devel
 ```
 
 ### Installation process
-
+Execute "requirements.sh" first
 ```bash
 git clone https://github.com/rapphil/vim-python-ide.git && \
 cd vim-python-ide && ./install.sh
