@@ -6,7 +6,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 	brew install ctags
 
 VIM_VERSION="v8.1.0664"
-CURDIR=${PWD}
 CPUS=$(grep -c ^processor /proc/cpuinfo)
 
 read -p "Please backup your .vimrc file and .vim directory before starting. Press [Enter] to continue."
