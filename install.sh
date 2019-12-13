@@ -1,4 +1,9 @@
 #!/bin/bash
+# Installing ctags
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        sudo apt-get install ctags
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+	brew install ctags
 
 VIM_VERSION="v8.1.0664"
 CURDIR=${PWD}
